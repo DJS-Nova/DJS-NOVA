@@ -1,6 +1,6 @@
   // import logo from './logo.svg';
   import './App.css';
-  import { Link, Element } from 'react-scroll';
+  // import { Link, Element } from 'react-scroll';
   import NavBar1 from './components/NavBar1';
   import { LandingPage } from './pages/LandingPage';
   import AboutUs from './pages/AboutUs';

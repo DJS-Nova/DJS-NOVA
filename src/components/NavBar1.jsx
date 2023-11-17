@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 import {Link} from 'react-scroll';
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
-import AboutUs from '../pages/AboutUs'
-import Vision from '../pages/Vision'
-import Departments from '../pages/Departments'
-import FAQs from '../pages/FAQs'
-import ContactUs from '../pages/ContactUs'
+// import AboutUs from '../pages/AboutUs'
+// import Vision from '../pages/Vision'
+// import Departments from '../pages/Departments'
+// import FAQs from '../pages/FAQs'
+// import ContactUs from '../pages/ContactUs'
 
 const NavBar1 = () => {
     
