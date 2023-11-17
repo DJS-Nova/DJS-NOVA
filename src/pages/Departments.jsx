@@ -43,9 +43,9 @@ function Departments() {
     </div> */}
 
 
-<div className="flex bg-fixed">
+<div className="h-screen w-screen flex bg-fixed">
   <div className="items-center justify-center">
-    <div
+    {/* <div
           className="h-screen w-screen bg-cover bg-no-repeat overflow-hidden"
           style={{
             backgroundImage: `url(${blue})`,
@@ -53,7 +53,7 @@ function Departments() {
             backgroundPosition: 'top',  
             opacity: 0.7,
 
-          }}>
+          }}> */}
 
             <h2 className="text-white mt-24 mb-12 text-2xl font-semibold underline font-serif">DEPARTMENTS</h2>
           
@@ -113,7 +113,7 @@ function Departments() {
               </div>
             </div>
           </div>
-        </div>
+        {/* </div> */}
   
 
     </Element>
