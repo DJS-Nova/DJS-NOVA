@@ -53,7 +53,7 @@ export const LandingPage = () => {
       <img src={logo} alt="Logo of DJS NOVA" className="h-80 mt-32"/>
   </div>
   <p className="text-white text-3xl font-extralight text-center font-sans">The Official Astronomy & Astrophysics Club of DJ Sanghvi</p>
-  <p className="text-white text-3xl font-thin text-center font-serif italic mt-12 motion-reduce:animate-spin">Chaos in Calm</p>
+  <p className="text-white text-3xl font-thin text-center font-serif italic mt-12">Chaos in Calm</p>
   </div>
   {/* </div> */}
 
