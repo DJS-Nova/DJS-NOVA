@@ -18,7 +18,7 @@ import Foot from './components/Footer';
           <AboutUs/>
           <Vision/>
           <Departments/>
-          <FAQs/> 
+          {/* <FAQs/>  */}
           <ContactUs/>
       <footer>
         <Foot/>

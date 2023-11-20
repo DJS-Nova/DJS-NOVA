@@ -27,7 +27,7 @@ const NavBar1 = () => {
             <li className='p-7 font-serif'><Link to ="About" spy={true} smooth={true} offset={10} duration={500} className="cursor-pointer hover:underline">About Us</Link> </li>
             <li className='p-7 font-serif'><Link to ="Vision" spy={true} smooth={true} offset={10} duration={500} className="cursor-pointer hover:underline">Vision </Link></li>
             <li className='p-7 font-serif'><Link to ="Dept" spy={true} smooth={true} offset={10} duration={500} className="cursor-pointer hover:underline">Departments</Link></li>
-            <li className='p-7 font-serif'><Link to= "FAQ" spy={true} smooth={true} offset={10} duration={500} className="cursor-pointer hover:underline">FAQs</Link></li>
+            {/* <li className='p-7 font-serif'><Link to= "FAQ" spy={true} smooth={true} offset={10} duration={500} className="cursor-pointer hover:underline">FAQs</Link></li> */}
             <li className='p-7 font-serif'><Link to= "Contact" spy={true} smooth={true} offset={10} duration={500} className="cursor-pointer hover:underline">Contact Us</Link></li>
         </ul>
         <div onClick={handleNav} className='block md:hidden'>
@@ -39,7 +39,7 @@ const NavBar1 = () => {
                 <li className='p-6 border-b border-gray-200 font-serif'><Link to ="About" className="cursor-pointer">About Us</Link></li>
                 <li className='p-6 border-b border-gray-200 font-serif'><Link to ="Vision" className="cursor-pointer">Vision</Link></li>
                 <li className='p-6 border-b border-gray-200 font-serif'><Link to ="Dept" className="cursor-pointer">Departments</Link></li>
-                <li className='p-6 border-b border-gray-200 font-serif'><Link to ="FAQ" className="cursor-pointer">FAQs</Link></li>
+                {/* <li className='p-6 border-b border-gray-200 font-serif'><Link to ="FAQ" className="cursor-pointer">FAQs</Link></li> */}
                 <li className='p-6 border-b border-gray-200 font-serif'><Link to ="Contact" className="cursor-pointer">Contact Us</Link></li>
             </ul>
         </div>

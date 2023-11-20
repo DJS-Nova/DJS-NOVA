@@ -15,9 +15,9 @@ export const FAQs = () => {
     </div>
 </div> */}
 
-<div className="flex bg-fixed">
+<div className="h-screen flex bg-fixed">
   <div className="items-center justify-center">
-    <div
+    {/* <div
           className="h-screen w-screen bg-cover bg-no-repeat"
           style={{
             backgroundImage: `url(${blue})`,
@@ -25,7 +25,7 @@ export const FAQs = () => {
             backgroundPosition: 'top',  
             opacity: 0.7,
 
-          }}>
+          }}> */}
 
         <div className="bg-black bg-opacity-60 h-96 w-96 left-40 mt-52 px-4 absolute z-0 text-white border-2 border-white rounded-2xl font-serif">
             <h2 className="mt-5 text-2xl font-semibold underline">FAQs</h2>
@@ -33,7 +33,7 @@ export const FAQs = () => {
        </div>
         </div>
     </div>
-  </div>
+  {/* </div> */}
 
 </Element>
 
