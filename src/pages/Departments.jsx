@@ -43,7 +43,7 @@ function Departments() {
     </div> */}
 
 
-<div className="h-screen w-screen flex bg-fixed">
+<div className="h-screen w-full flex bg-fixed bg-black bg-opacity-50">
   <div className="items-center justify-center">
     {/* <div
           className="h-screen w-screen bg-cover bg-no-repeat overflow-hidden"
@@ -58,7 +58,6 @@ function Departments() {
             <h2 className="text-white mt-24 mb-12 text-2xl font-semibold underline font-serif">DEPARTMENTS</h2>
           
             <div className="flex justify-center items-center ">
-
               <ImageCard imgSrc={duck}>
                 <h3 className='text-xl font-bold mb-2 '> RESEARCH </h3>
                 {/* <p>

@@ -16,7 +16,7 @@ export const ContactUs = () => {
 </div>
 </div> */}
 
-<div className="h-screen flex bg-fixed">
+<div className="h-screen flex bg-fixed bg-black bg-opacity-50">
   <div className="items-center justify-center">
     {/* <div
           className="h-screen w-screen bg-cover bg-no-repeat"

@@ -15,7 +15,7 @@ export const AboutUs = () => {
     </div>
 </div> */}
 
-<div className="h-screen w-screen flex">
+<div className="h-screen w-full flex bg-black bg-opacity-50">
   <div className="items-center justify-center">
     {/* <div
           className="h-screen w-screen bg-cover bg-no-repeat overflow-hidden z-0"

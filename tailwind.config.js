@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     fontFamily: 
     {
-      sans: ['Dosis','sans-serif'],
+      'sans': ['Roboto','sans-serif'],
+      'serif': ["Playfair Display",'serif'],
     },
     extend: {},
   },
