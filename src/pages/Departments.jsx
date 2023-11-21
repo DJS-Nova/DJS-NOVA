@@ -3,6 +3,13 @@ import { Element } from 'react-scroll';
 import duck from '../images/Ducks.png';
 import ImageCard from '../components/ImageCard';
 import blue from '../images/Blue.jpg';
+import research from '../images/research3.jpg';
+import techai from '../images/techai.jpg'
+import techweb from '../images/techweb.jpeg'
+import management from '../images/management.jpg';
+import pr from '../images/pr.jpg'
+import marketing from '../images/marketing.jpg'
+import creative from '../images/creative.png'
 
 function Departments() {
   return (
@@ -51,22 +58,22 @@ function Departments() {
             backgroundImage: `url(${blue})`,
             backgroundSize: '100%',
             backgroundPosition: 'top',  
-            opacity: 0.7,
+            // opacity: 0.7,
 
           }}>
 
-            <h2 className="text-white mt-24 mb-12 text-2xl font-semibold underline font-serif">DEPARTMENTS</h2>
+            <h2 className="text-white mt-24 mb-12 text-3xl font-semibold underline font-sans">DEPARTMENTS</h2>
           
             <div className="flex justify-center items-center ">
 
-              <ImageCard imgSrc={duck}>
+              <ImageCard imgSrc={research}>
                 <h3 className='text-xl font-bold mb-2 '> RESEARCH </h3>
                 {/* <p>
                   blah
                 </p> */}
               </ImageCard>
 
-              <ImageCard imgSrc={duck}>
+              <ImageCard imgSrc={techai}>
                 <h3 className='text-xl font-bold mb-2 '> TECH AI </h3>
                 {/* <p>
                   Blah blah blah
@@ -74,7 +81,7 @@ function Departments() {
               </ImageCard>
 
               
-              <ImageCard imgSrc={duck}>
+              <ImageCard imgSrc={techweb}>
                 <h3 className='text-xl font-bold mb-2'> TECH WEB DEV </h3>
                 {/* <p>
                   Blah blah blah
@@ -86,7 +93,7 @@ function Departments() {
 
             <div className="flex justify-center items-center">
 
-              <ImageCard imgSrc={duck}>
+              <ImageCard imgSrc={management}>
                 <h3 className='text-xl font-bold mb-2 '> MANAGEMENT </h3>
                 {/* <p>
                   Blah blah blah
@@ -95,14 +102,14 @@ function Departments() {
 
 
               
-              <ImageCard imgSrc={duck}>
+              <ImageCard imgSrc={marketing}>
                 <h3 className='text-xl font-bold mb-2 '> MARKETING & PR </h3>
                 {/* <p>
                   Blah blah blah
                 </p> */}
               </ImageCard>
 
-              <ImageCard imgSrc={duck}>
+              <ImageCard imgSrc={creative}>
                 <h3 className='text-xl font-bold mb-2 '> CREATIVES </h3>
                 {/* <p>
                   Blah blah blah

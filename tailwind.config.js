@@ -7,7 +7,7 @@ module.exports = {
     fontFamily: 
     {
       'sans': ['Roboto','sans-serif'],
-      'serif': ["Playfair Display",'serif'],
+      'serif': ["Times New Roman","Playfair Display",'serif'],
     },
     extend: {},
   },
