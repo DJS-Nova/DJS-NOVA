@@ -6,7 +6,7 @@
   import AboutUs from './pages/AboutUs';
   import Vision from './pages/Vision';
   import Departments from './pages/Departments';
-  import FAQs from './pages/FAQs';
+  // import FAQs from './pages/FAQs';
   import ContactUs from './pages/ContactUs';
 import Foot from './components/Footer';
 

@@ -1,13 +1,13 @@
 import React from 'react';
 import { Element } from 'react-scroll';
-import duck from '../images/Ducks.png';
+// import duck from '../images/Ducks.png';
 import ImageCard from '../components/ImageCard';
 import blue from '../images/Blue.jpg';
 import research from '../images/research3.jpg';
 import techai from '../images/techai.jpg'
 import techweb from '../images/techweb.jpeg'
 import management from '../images/management.jpg';
-import pr from '../images/pr.jpg'
+// import pr from '../images/pr.jpg'
 import marketing from '../images/marketing.jpg'
 import creative from '../images/creative.png'
 
