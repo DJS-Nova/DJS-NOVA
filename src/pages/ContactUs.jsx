@@ -18,14 +18,14 @@ export const ContactUs = () => {
 
 <div className="flex bg-fixed">
   <div className="items-center justify-center">
-    <div
+    {/* <div
           className="h-screen w-screen bg-cover bg-no-repeat"
           style={{
             backgroundImage: `url(${blue})`,
             backgroundSize: '100%',
             backgroundPosition: 'top',
             // opacity: 0.7,
-          }}>
+          }}> */}
 
         <div className="bg-black bg-opacity-60 h-80 w-96 right-40 mt-52 px-4 absolute z-0 text-white border-2 border-white rounded-2xl font-serif text-xl">
             <h2 className="mt-8 text-2xl font-semibold underline font-sans">CONTACT US</h2>
@@ -65,7 +65,7 @@ export const ContactUs = () => {
        </div>
         </div>
     </div>
-  </div>
+  {/* </div> */}
 
 </Element>
   );

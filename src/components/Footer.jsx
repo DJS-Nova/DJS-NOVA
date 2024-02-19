@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-8 font-sans text-base text-left">
+    <footer className="bg-black text-white py-8 font-sans text-base text-center">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <h2 className="text-2xl font-bold font-sans">DJS NOVA</h2>
             <p className="mt-4 text-gray-300/70 ">
@@ -14,7 +14,7 @@ const Footer = () => {
 
           <div>
             <h2 className="text-2xl font-bold font-sans">Address</h2>
-            <p className="mt-4 text-gray-300/70 hover:text-sky-900 ">
+            <p className="mt-4 text-gray-300/70 hover:font-light ">
               <a href="https://goo.gl/maps/UUdvCoeZa2aycxBv7" target="_blank" rel="noreferrer">
                 SVKM's Dwarkadas J. Sanghvi College of Engineering, Vile Parle West, Mumbai-400056
               </a>

@@ -1,29 +1,33 @@
   // import logo from './logo.svg';
   import './App.css';
   // import { Link, Element } from 'react-scroll';
-  import NavBar1 from './components/NavBar1';
-  import { LandingPage } from './pages/LandingPage';
-  import AboutUs from './pages/AboutUs';
-  import Vision from './pages/Vision';
-  import Departments from './pages/Departments';
+  // import NavBar1 from './components/NavBar1';
+  import Navbar from './components/Navbar';
+  // import Hero from './pages/HeroSection';
+  // import AboutUs from './pages/AboutUs';
+  // import Vision from './pages/Vision';
+  // import Departments from './pages/Departments';
   // import FAQs from './pages/FAQs';
-  import ContactUs from './pages/ContactUs';
+  // import ContactUs from './pages/ContactUs';
 import Foot from './components/Footer';
+import LandingPage from "./pages/LandingPage"
+
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import EventGallery from './components/EventGallery/EventGallery';
 
   function App() {
     return (
-      <div className="App">
-          <NavBar1/>
-          <LandingPage/>
-          <AboutUs/>
-          <Vision/>
-          <Departments/>
-          {/* <FAQs/>  */}
-          <ContactUs/>
-      <footer>
-        <Foot/>
-      </footer>
-      </div>
+    <BrowserRouter>
+    <Navbar/>
+    <Routes>
+      {/* <Route index element={LandingPage}></Route> */}
+      <Route path='/' element={<LandingPage/>}/>
+      <Route path='/eventgallery' element={<EventGallery/>}/>
+        
+ 
+    </Routes>
+    <Foot/>
+    </BrowserRouter>
     );
   }
 
