@@ -5,10 +5,10 @@
   import Navbar from '../components/Navbar';
   import Hero from './HeroSection';
   import AboutUs from './AboutUs';
-  import Vision from './Vision';
-  import Departments from './Departments';
+  // import Vision from './Vision';
+  // import Departments from './Departments';
   // import FAQs from './pages/FAQs';
-  import ContactUs from './ContactUs';
+  // import ContactUs from './ContactUs';
 import Foot from '../components/Footer';
 import Contact from './Contact.jsx'
 import './landingpage.css'

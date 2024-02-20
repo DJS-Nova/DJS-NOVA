@@ -36,7 +36,7 @@ import logo from '../images/NOVA-removebg-preview.png';
 import { Element } from 'react-scroll';
 // import bg from '../images/dark-space-wallpaper-preview.jpg'
 // import bg from '../images/goodbg.jpg'
-import bg from "../images/bgnewwwww.jpg"
+// import bg from "../images/bgnewwwww.jpg"
 
 export const HeroSection = () => {
   return (

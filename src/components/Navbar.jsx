@@ -1,8 +1,9 @@
 import './navbar.css'
-import React, {useState} from 'react'
-import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+// import React, {useState} from 'react'
+import React from 'react';
+// import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import team from '../images/teamicon-removebg-preview.png'
-import logo from '../images/Logo.png'
+// import logo from '../images/Logo.png'
 import home from '../images/homeicon-removebg-preview.png';
 import contact from '../images/contacticon-removebg-preview.png'
 import eventGallery from '../images/eventicon-removebg-preview.png'
@@ -10,21 +11,21 @@ import magazine from '../images/magazine.png'
 // import {link} from 'react-scroll';
 import {Link} from 'react-router-dom';
 import {HashLink} from 'react-router-hash-link';
-import Home from '../pages/HeroSection'
-import About from '../pages/AboutUs'
-import Contact from '../pages/Contact'
+// import Home from '../pages/HeroSection'
+// import About from '../pages/AboutUs'
+// import Contact from '../pages/Contact'
 
 
 function Navbar(){
-    const [nav, setNav] = useState(false)
+    // const [nav, setNav] = useState(false)
 
-    const handleNav = ()=>{
-      setNav(!nav)
-    }
+    // const handleNav = ()=>{
+    //   setNav(!nav)
+    // }
 
-    const handleClose=()=>{
-        setNav(false)
-    } 
+    // const handleClose=()=>{
+    //     setNav(false)
+    // } 
   
   
   return( 

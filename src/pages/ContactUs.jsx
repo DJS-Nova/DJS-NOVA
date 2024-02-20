@@ -1,5 +1,5 @@
 import React from 'react';
-import blue from '../images/Blue.jpg';
+// import blue from '../images/Blue.jpg';
 import { Element } from 'react-scroll';
 
 export const ContactUs = () => {

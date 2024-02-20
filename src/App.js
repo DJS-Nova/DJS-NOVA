@@ -9,11 +9,11 @@
   // import Departments from './pages/Departments';
   // import FAQs from './pages/FAQs';
   // import ContactUs from './pages/ContactUs';
-import Foot from './components/Footer';
-import LandingPage from "./pages/LandingPage"
+// import Foot from './components/Footer';
+// import LandingPage from "./pages/LandingPage"
 
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import EventGallery from './components/EventGallery/EventGallery';
+// import { BrowserRouter,Routes,Route } from 'react-router-dom';
+// import EventGallery from './components/EventGallery/EventGallery';
 
   function App() {
     return (
