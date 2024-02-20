@@ -51,7 +51,7 @@ import { Element } from 'react-scroll';
 
 export default function AboutUs() {
   return (
-    <Element name="About">
+    <Element name="About" id='about'>
         <div className="container1">
             <div className="title">
                 <h2 className="text-white">

@@ -40,7 +40,7 @@ import bg from "../images/bgnewwwww.jpg"
 
 export const HeroSection = () => {
   return (
-    <Element name="Home">
+    <Element name="Home" id='home'>
 <div className="h-screen w-full">
      {/* <div
           className="h-screen w-full bg-cover bg-no-repeat"

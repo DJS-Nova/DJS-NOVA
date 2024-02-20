@@ -7,9 +7,12 @@ import home from '../images/homeicon-removebg-preview.png';
 import contact from '../images/contacticon-removebg-preview.png'
 import eventGallery from '../images/eventicon-removebg-preview.png'
 import magazine from '../images/magazine.png'
-import {Link} from 'react-scroll';
-
-
+// import {link} from 'react-scroll';
+import {Link} from 'react-router-dom';
+import {HashLink} from 'react-router-hash-link';
+import Home from '../pages/HeroSection'
+import About from '../pages/AboutUs'
+import Contact from '../pages/Contact'
 
 
 function Navbar(){
@@ -29,11 +32,13 @@ function Navbar(){
         <nav className="navbar">
           <ul>
             
-            <li><img className='homelogo pic' src={home} alt="" /><p><Link to ="Home" spy={true} smooth={true} offset={0} duration={500}> Home </Link></p></li>
-            <li><img className='teamlogo pic' src={team} alt="" /><p><Link to ="About" spy={true} smooth={true} offset={0} duration={500}> About Us</Link></p></li>
-            {/* <li><img className='eventlogo pic' src={eventGallery} alt="" /><p><Link to ='/eventgallery' spy={true} smooth={true} offset={0} duration={500}>Event Gallery</Link></p></li> */}
-            {/* <li><img className='magazinelogo pic' src={magazine} alt="" /><p>Magazine</p></li> */}
-            <li><img className='contactlogo pic' src={contact} alt="" /><p><Link to ="Contact" spy={true} smooth={true} offset={0} duration={500}> Contact Us </Link></p></li>
+            {/* <li><img className='homelogo pic' src={home} alt="" /><p><Link to ="Home" spy={true} smooth={true} offset={0} duration={500}> Home </Link></p></li> */}
+            <li><img className='homelogo pic' src={home} alt="" /><p><HashLink to={'/#home'} spy={true} smooth={true} offset={0} duration={500}> Home </HashLink></p></li>
+            
+            <li><img className='teamlogo pic' src={team} alt="" /><p><HashLink to={'/#about'} spy={true} smooth={true} offset={0} duration={500}> About Us</HashLink></p></li>
+            <li><img className='eventlogo pic' src={eventGallery} alt="" /><p><Link to ='/EventGallery' spy={true} smooth={true} offset={0} duration={500}>Event Gallery</Link></p></li>
+            <li><img className='magazinelogo pic' src={magazine} alt="" /><p><Link to ='/magazine' spy={true} smooth={true} offset={0} duration={500}>Magazines</Link></p></li>
+            <li><img className='contactlogo pic' src={contact} alt="" /><p><HashLink to={'/#contact'} spy={true} smooth={true} offset={0} duration={500}> Contact Us </HashLink></p></li>
           </ul>
           {/* <div onClick={handleNav} className='block md:hidden'>
             {!nav ?<AiOutlineClose onClose={handleClose} size={20}/>:<AiOutlineMenu size={20}/> }

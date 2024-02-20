@@ -17,7 +17,7 @@ const LandingPage = () => {
   return (
     <div className="bg">
       {/* <NavBar1/> */}
-        {/* <Navbar/> */}
+        <Navbar/>
           <Hero/>
           <AboutUs/>
           <Contact/>
@@ -25,9 +25,9 @@ const LandingPage = () => {
           {/* <Departments/> */}
           {/* <FAQs/>  */}
           {/* <ContactUs/> */}
-      {/* <footer>
+      <footer>
         <Foot/>
-      </footer> */}
+      </footer>
     </div>
   )
 }

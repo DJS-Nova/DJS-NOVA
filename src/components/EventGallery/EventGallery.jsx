@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './EventGallery.css';
 import ImageModal from '../Imagemodal/ImageModal';
 // import { Element } from 'react-scroll';
+import Foot from '../Footer.jsx';
 
 import video from '../../assets/video.mp4';
 import img1 from '../../assets/1.jpg';
@@ -12,6 +13,7 @@ import img5 from '../../assets/5.jpg';
 import img6 from '../../assets/6.jpg';
 import img7 from '../../assets/7.jpg';
 import img10 from '../../assets/img10.jpg';
+import Navbar from '../Navbar.jsx';
 
 const EventGallery = () => {
   const [modalData, setModalData] = useState(null);
@@ -36,7 +38,10 @@ const EventGallery = () => {
   };
 
   return (
+    <>
     <div className="ml-20">
+    <Navbar/>
+
      <section className="home">
         <video src={video} muted autoPlay loop type="video/mp4" className="vid"></video>
         
@@ -60,6 +65,10 @@ const EventGallery = () => {
         <ImageModal selectedImage={modalData.imgSrc} description={modalData.desc} onClose={closeModal} />
       )}
     </div>
+    <footer>
+      <Foot/>
+    </footer>
+    </>
   );
 };
 

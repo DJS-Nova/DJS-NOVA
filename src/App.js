@@ -17,18 +17,9 @@ import EventGallery from './components/EventGallery/EventGallery';
 
   function App() {
     return (
-    <BrowserRouter>
-    <Navbar/>
-    <Routes>
-      {/* <Route index element={LandingPage}></Route> */}
-      <Route path='/' element={<LandingPage/>}/>
-      <Route path='/eventgallery' element={<EventGallery/>}/>
-        
- 
-    </Routes>
-    <Foot/>
-    </BrowserRouter>
-    );
+       <Navbar/>
+      
+  );
   }
 
   export default App;
