@@ -3,6 +3,7 @@ import img1 from "./img1.png";
 import './OtherMagazines.css'
 import Footer from '../Footer';
 import Navbar from '../Navbar';
+import img2 from './img2.png';
 
 
 const Magazines = () => {
@@ -10,9 +11,19 @@ const Magazines = () => {
   const img = [{
     image: img1,
     title: "Magazine Volume 1",
-    para: "Magazine Unvieling ",
-    delay: "0.3s"
-    },
+    para: "Magazine Unveiling",
+    delay: "0.3s",
+    link: 'https://drive.google.com/file/d/1gvi8nNOWma0BkaKTPOzuFow2WXAMx607/view?usp=sharing '
+  },
+    
+    {
+      image: img2,
+      title: "Magazine Volume 2",
+      para: "September 2024",
+      delay: "0.3s",
+      link:"https://drive.google.com/file/d/1SSnE6BAiCNeh8P2dkZnmX15k_McepdyJ/view?usp=drivesdk"
+
+    }
 
   ];
 
@@ -26,7 +37,7 @@ const Magazines = () => {
         img.map((i) => (
           <div className="cards">
             <div className="img-container" >
-              <a href='https://drive.google.com/file/d/1gvi8nNOWma0BkaKTPOzuFow2WXAMx607/view?usp=sharing '>
+              <a href={i.link}>
 
               <img style={{
                 animationDelay: i.delay,
