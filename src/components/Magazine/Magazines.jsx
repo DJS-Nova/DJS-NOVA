@@ -15,7 +15,7 @@ const Magazines = () => {
     delay: "0.3s",
     link: 'https://drive.google.com/file/d/1gvi8nNOWma0BkaKTPOzuFow2WXAMx607/view?usp=sharing '
   },
-    
+
     {
       image: img2,
       title: "Magazine Volume 2",

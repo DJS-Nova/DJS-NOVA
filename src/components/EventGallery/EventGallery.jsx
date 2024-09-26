@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './EventGallery.css';
-import ImageModal from '../Imagemodal/ImageModal';
+import ImageModal from '../Imagemodal/ImageModal.jsx';
 // import { Element } from 'react-scroll';
 import Foot from '../Footer.jsx';
 
