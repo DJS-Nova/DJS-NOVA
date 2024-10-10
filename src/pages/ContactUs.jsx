@@ -37,7 +37,7 @@ export const ContactUs = () => {
             
             
             <p className="text-white mt-5">
-              Mansi Sharma: <a href="tel:+917977591782" title="Mansi Sharma">+91 79775 91782</a>
+              Revati Singh: <a href="tel:+918291653370" title="Revati Singh">+91 82916 53370</a>
             </p>
 {/* 
             <p className="mt-2 text-white">
