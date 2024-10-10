@@ -19,7 +19,7 @@ export default function AboutUs() {
                     Email: <a href="mailto:djsnova09@gmail.com" target="_blank" rel="noreferrer"> djsnova09@gmail.com </a>
                     </p>
                     <p>
-              Mansi Sharma: <a href="tel:+917977591782" title="Mansi Sharma">+91 79775 91782</a>
+              Mansi Sharma: <a href="tel:+918291653370" title="Revati Singh">+91 82916 53370</a>
                     </p>
                     <p>
                     <a title="LinkedIn" href="https://www.linkedin.com/company/djs-nova/" target="_blank" rel="noreferrer" className="text-white">
