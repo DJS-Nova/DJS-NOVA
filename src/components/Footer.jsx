@@ -29,7 +29,7 @@ const Footer = () => {
               </a>
             </p>
             <p className="text-gray-300/70 mt-1 hover:font-light">
-              Mansi Sharma: <a href="tel:+917977591782" title="Mansi Sharma">+91 79775 91782</a>
+              Revati Singh: <a href="tel:+918291653370" title="Mansi Sharma">+91 82916 53370</a>
             </p>
           </div>
 
