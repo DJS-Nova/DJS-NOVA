@@ -21,7 +21,7 @@ const Magazines = () => {
       title: "Magazine Volume 2",
       para: "September 2024",
       delay: "0.3s",
-      link:"https://drive.google.com/file/d/1SSnE6BAiCNeh8P2dkZnmX15k_McepdyJ/view?usp=drivesdk"
+      link:"https://drive.google.com/file/d/16LDq8u0PK3Ya1oKyni4GH1o7scSGHkGP/view?usp=drivesdk"
 
     }
 
